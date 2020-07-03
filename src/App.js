@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import Header from './components/Header';
+import Characters from './components/Characters';
 
 const App = () => {
     const [items, setItems] = useState([]);
@@ -23,6 +24,7 @@ const App = () => {
     return (
         <div className="App">
             <Header />
+            <Characters />
         </div>
     );
 };
