@@ -9,15 +9,15 @@ const Search = ({ getQuery }) => {
     };
 
     return (
-        <form>
+        <form className="search">
             <input
+                className="search__input"
                 type="text"
                 placeholder="Search characters"
                 autoFocus
                 value={text}
                 onChange={(e) => handleChange(e.target.value)}
             />
-            <button type="submit">Search</button>
         </form>
     );
 };
