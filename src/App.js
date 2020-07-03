@@ -24,7 +24,7 @@ const App = () => {
     return (
         <div className="App">
             <Header />
-            <Characters />
+            <Characters isLoading={isLoading} {...items} />
         </div>
     );
 };
