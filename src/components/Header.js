@@ -4,9 +4,9 @@ import logo from '../img/logo.png';
 
 const Header = () => {
     return (
-        <div>
+        <header>
             <img src={logo} alt="breaking bad logo"/>
-        </div>
+        </header>
     );
 };
 
