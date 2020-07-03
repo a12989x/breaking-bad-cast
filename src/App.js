@@ -24,11 +24,11 @@ const App = () => {
     }, [query]);
 
     return (
-        <div className="App">
+        <section className="App">
             <Header />
             <Search getQuery={(q) => setQuery(q)} />
             <Characters isLoading={isLoading} items={items} />
-        </div>
+        </section>
     );
 };
 
