@@ -8,11 +8,12 @@ import Search from './components/Search';
 const App = () => {
     const [items, setItems] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const [query, setQuery] = useState('');
 
     useEffect(() => {
         const fetchItems = async () => {
             const result = await axios(
-                `https://www.breakingbadapi.com/api/characters`
+                `https://www.breakingbadapi.com/api/characters?name=${query}`
             );
 
             setItems(result.data);
@@ -20,12 +21,12 @@ const App = () => {
         };
 
         fetchItems();
-    }, []);
+    }, [query]);
 
     return (
         <div className="App">
             <Header />
-            <Search />
+            <Search getQuery={(q) => setQuery(q)} />
             <Characters isLoading={isLoading} items={items} />
         </div>
     );
