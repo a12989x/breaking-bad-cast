@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CharacterItem = () => {
+const CharacterItem = ({ name }) => {
     return (
         <div>
-            <p>Character Item Component</p>
+            <p>{name}</p>
         </div>
     );
 };

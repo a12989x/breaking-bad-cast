@@ -8,7 +8,7 @@ const Characters = ({ items, isLoading }) => {
     ) : (
         <section>
             {items.map((item) => (
-                <CharacterItem />
+                <CharacterItem key={item.char_id} {...item} />
             ))}
         </section>
     );
