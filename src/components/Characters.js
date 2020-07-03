@@ -6,7 +6,7 @@ const Characters = ({ items, isLoading }) => {
     return isLoading ? (
         <p>Loading...</p>
     ) : (
-        <section>
+        <section className="characters">
             {items.map((item) => (
                 <CharacterItem key={item.char_id} {...item} />
             ))}
