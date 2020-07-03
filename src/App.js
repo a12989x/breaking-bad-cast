@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import Header from './components/Header';
 import Characters from './components/Characters';
+import Search from './components/Search';
 
 const App = () => {
     const [items, setItems] = useState([]);
@@ -24,6 +25,7 @@ const App = () => {
     return (
         <div className="App">
             <Header />
+            <Search />
             <Characters isLoading={isLoading} items={items} />
         </div>
     );

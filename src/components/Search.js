@@ -2,9 +2,10 @@ import React from 'react'
 
 const Search = () => {
     return (
-        <div>
-            <p>Search Component</p>
-        </div>
+        <form>
+            <input type="text" placeholder="Search characters" autoFocus />
+            <button type="submit">Search</button>
+        </form>
     )
 }
 
