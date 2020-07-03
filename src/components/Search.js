@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const Search = () => {
     return (
@@ -6,7 +6,7 @@ const Search = () => {
             <input type="text" placeholder="Search characters" autoFocus />
             <button type="submit">Search</button>
         </form>
-    )
-}
+    );
+};
 
-export default Search
+export default Search;
