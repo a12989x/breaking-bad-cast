@@ -6,7 +6,7 @@ An clone aplication based on Project of [bradtraversy](https://github.com/bradtr
 
 ![breaking-bad-cast](./thumb.png)
 
-### Tech/framewor used
+### Tech/framework used
 Build with:
    React
   -sass
