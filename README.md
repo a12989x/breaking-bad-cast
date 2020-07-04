@@ -2,7 +2,9 @@
 An clone aplication based on Project of [bradtraversy](https://github.com/bradtraversy, 'Brad Traversy')
 
 ## Live Preview
-[Breaking Bad Cast](https://a12989x.github.io/breaking-bad-cast/ (Breaking Bad Cast))**
+[Breaking Bad Cast](https://a12989x.github.io/breaking-bad-cast/ (Breaking Bad Cast))
+
+![breaking-bad-cast](./thumb.png)
 
 ### Tech/framewor used
 Build with:
