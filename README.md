@@ -1,5 +1,5 @@
 # Breaking Bad Cast
-An clone aplication based on Project of [bradtraversy](https://github.com/bradtraversy, 'Brad Traversy')
+An clone application based on Project of [bradtraversy](https://github.com/bradtraversy, 'Brad Traversy')
 
 ## Live Preview
 [Breaking Bad Cast](https://a12989x.github.io/breaking-bad-cast/ (Breaking Bad Cast))
